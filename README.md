@@ -1,4 +1,4 @@
-#VNPY
+# VNPY
   * Setup
 
     conda create --name vnpy python=3.12
@@ -33,7 +33,7 @@
     
     python3 examples/veighna_trader/run.py
 
-#Finrobot
+# Finrobot
   * Modify requirements.txt
 
     pyautogen==0.5.3
