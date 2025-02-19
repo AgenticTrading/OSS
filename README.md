@@ -1,4 +1,4 @@
-VNPY
+#VNPY
   * Setup
 
     conda create --name vnpy python=3.12
@@ -23,7 +23,7 @@ VNPY
     
     python3 -m pip install vnpy_ctastrategy vnpy_ctabacktester vnpy_datamanager vnpy_sqlite
 
-    # 安裝 vnpy in MBP (M4)
+    ## 安裝 vnpy in MBP (M4)
 
     git clone https://github.com/vnpy/vnpy.git
     cd vnpy
@@ -33,7 +33,7 @@ VNPY
     
     python3 examples/veighna_trader/run.py
 
-Finrobot
+#Finrobot
   * Modify requirements.txt
 
     pyautogen==0.5.3
