@@ -17,4 +17,5 @@ VNPY
     
     python3 -m pip install vnpy_ctastrategy vnpy_ctabacktester vnpy_datamanager vnpy_sqlite
   * Run
+    
     python3 examples/veighna_trader/run.py
