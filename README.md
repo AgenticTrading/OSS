@@ -32,3 +32,5 @@ VNPY
   * Run
     
     python3 examples/veighna_trader/run.py
+
+Finrobot
