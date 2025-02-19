@@ -1,0 +1,17 @@
+OAI_CONFIG_LIST
+PERSONAL_KEYS
+config_api_keys
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+*.csv
+*.jpg
+*.png
+quant/
+coding/
+*.egg-info/
+.DS_Store
+projects/
+dist/
+tmp/
+filings/

@@ -1,0 +1,126 @@
+
+
+0:
+NVDA: EBITDA Margin      0.58
+EV/EBITDA         43.45
+FCF Conversion     0.94
+Gross Margin       0.73
+ROIC              51.3%
+Revenue           60922
+Revenue Growth     None
+Name: 0, dtype: object
+AMD: EBITDA Margin       0.07
+EV/EBITDA         105.01
+FCF Conversion      1.85
+Gross Margin        0.49
+ROIC                2.5%
+Revenue            25785
+Revenue Growth      None
+Name: 0, dtype: object
+INTC: EBITDA Margin       0.02
+EV/EBITDA         106.94
+FCF Conversion     -0.44
+Gross Margin        0.33
+ROIC              -11.9%
+Revenue            53101
+Revenue Growth      None
+Name: 0, dtype: object
+
+
+1:
+NVDA: EBITDA Margin                    0.27
+EV/EBITDA                        81.0
+FCF Conversion                   1.29
+Gross Margin                     0.57
+ROIC                            12.2%
+Revenue                         26974
+Revenue Growth    (2697399999900, 1)%
+Name: 1, dtype: object
+AMD: EBITDA Margin                    0.18
+EV/EBITDA                       57.12
+FCF Conversion                   1.95
+Gross Margin                     0.46
+ROIC                             1.1%
+Revenue                         22680
+Revenue Growth    (2267999999900, 1)%
+Name: 1, dtype: object
+INTC: EBITDA Margin                    0.21
+EV/EBITDA                       22.48
+FCF Conversion                   6.79
+Gross Margin                      0.4
+ROIC                             0.1%
+Revenue                         54228
+Revenue Growth    (5422799999900, 1)%
+Name: 1, dtype: object
+
+
+2:
+NVDA: EBITDA Margin                    0.42
+EV/EBITDA                       54.71
+FCF Conversion                   0.93
+Gross Margin                     0.65
+ROIC                            24.6%
+Revenue                         26914
+Revenue Growth    (2691399999900, 1)%
+Name: 2, dtype: object
+AMD: EBITDA Margin                     0.2
+EV/EBITDA                       18.09
+FCF Conversion                    2.7
+Gross Margin                     0.51
+ROIC                             2.3%
+Revenue                         23601
+Revenue Growth    (2360099999900, 1)%
+Name: 2, dtype: object
+INTC: EBITDA Margin                    0.25
+EV/EBITDA                        8.94
+FCF Conversion                   1.93
+Gross Margin                     0.43
+ROIC                             1.6%
+Revenue                         63054
+Revenue Growth    (6305399999900, 1)%
+Name: 2, dtype: object
+
+
+3:
+NVDA: EBITDA Margin                    0.34
+EV/EBITDA                        58.6
+FCF Conversion                   1.34
+Gross Margin                     0.62
+ROIC                            17.1%
+Revenue                         16675
+Revenue Growth    (1667499999900, 1)%
+Name: 3, dtype: object
+AMD: EBITDA Margin                    0.25
+EV/EBITDA                       42.71
+FCF Conversion                   1.11
+Gross Margin                     0.48
+ROIC                            37.0%
+Revenue                         16434
+Revenue Growth    (1643399999900, 1)%
+Name: 3, dtype: object
+INTC: EBITDA Margin                    0.43
+EV/EBITDA                        7.13
+FCF Conversion                   1.48
+Gross Margin                     0.55
+ROIC                            12.2%
+Revenue                         79024
+Revenue Growth    (7902399999900, 1)%
+Name: 3, dtype: object
+
+
+Resource: Financial metrics for NVDA and ['AMD', 'INTC'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple years (indicated as 0, 1, 2, 3, with 0 being the latest year and 3 the earliest year). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest year (3) to the latest year (0) for {company}. But when generating analysis, you need to write 1: year 3 = year 2023, 2: year 2 = year 2022, 3: year 1 = year 2021 and 4: year 0 = year 2020. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.
