@@ -37,5 +37,6 @@
   * Modify requirements.txt
 
     pyautogen==0.5.3
+    
     typing_extensions>=4.9.0
 
