@@ -1,0 +1,1 @@
+python3 backtest.py --ticker QQQ --start 2003-01-01 --end 2024-12-31 --strategy strategies.dca_strategy.DCAStrategy --interval 1d --strategy_config strategies_configs/dca_strategy_config.json --output_dir results

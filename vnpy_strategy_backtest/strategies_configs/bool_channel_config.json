@@ -1,0 +1,8 @@
+{
+    "boll_window": 22,
+    "boll_dev": 3.1,
+    "cci_window": 20,
+    "atr_window": 25,
+    "sl_multiplier": 5.0,
+    "fixed_size": 1
+}
