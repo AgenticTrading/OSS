@@ -52,6 +52,7 @@ RUN python3.10 -m pip install -e .
 # 安装所有 vnpy 包
 RUN python3.10 -m pip install --no-cache-dir \
     vnpy_ctastrategy \
+    vnpy_portfoliostrategy \
     vnpy_ctabacktester \
     vnpy_datamanager \
     vnpy_sqlite \
